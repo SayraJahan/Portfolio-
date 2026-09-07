@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | Sayra Jahan</title>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="progressBar"></div>
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold fs-2" href="#">
+                Sa<span class="text-warning">y</span>ra <br> Jahan
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                <ul class="navbar-nav align-items-lg-center">
+
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fw-semibold" href="#">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item mx-2">
+                        <a class="nav-link fw-semibold" href="#">Blog</a>
+                    </li>
+
+                    <li class="nav-item ms-lg-3">
+                        <a href="#contact" class="btn btn-warning text-white fw-bold px-4 py-2">
+                            Download CV
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+    <div class="theme-box text-center py-3">
+
+        <h6 class="mb-3">Choose Theme Color</h6>
+
+        <button class="theme-btn orange" onclick="changeTheme('#FD6E0A')"></button>
+
+        <button class="theme-btn blue" onclick="changeTheme('#0d6efd')"></button>
+
+        <button class="theme-btn green" onclick="changeTheme('#198754')"></button>
+
+        <button class="theme-btn purple" onclick="changeTheme('#6f42c1')"></button>
+
+    </div>
+    <!-- ================= HERO ================= -->
+
+    <section class="hero py-5">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <!-- Left -->
+
+                <div class="col-lg-6 text-center text-lg-start">
+
+                    <h4 id="greeting" class="text-warning fw-bold"></h4>
+
+                    <h5 class="text-secondary mb-2">
+                        Welcome,
+                        <span id="visitorName">Guest</span>
+                    </h5>
+                    <h3 class="text-secondary mb-1">
+                        Hi, I'm
+                    </h3>
+
+                    <h1 class="display-4 fw-bold text-brown mb-3">
+                        Sayra Jahan
+                    </h1>
+
+                    <!-- <p class="lead mb-4">
+                        I'm a
+                        <span id="typingText" class="fw-bold text-warning"></span>
+                    </p> -->
+
+                    <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+
+                        <button class="btn btn-warning btn-lg text-white px-4">
+                            Download CV
+                        </button>
+
+                        <button class="btn btn-outline-warning btn-lg px-4">
+                            Contact
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- Right -->
+
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+
+                    <img src="./images/WhatsApp Image 2026-08-31 at 12.25.21.jpeg" class="img-fluid hero-image" alt="Portfolio Image">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <div class="card border-0 shadow-lg rounded-4 p-5 about-section">
+
+                <div class="text-center">
+
+                    <h2 class="fw-bold mb-4">
+                        About Me
+                    </h2>
+
+                    <p class="text-muted">
+
+                        I'm a passionate designer and web developer who enjoys
+                        creating modern, responsive, and user-friendly websites.
+                        I love learning new technologies and continuously
+                        improving my skills to become a professional full-stack
+                        developer.
+
+                    </p>
+
+                </div>
+
+                <div class="row mt-5 g-4">
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="info-box text-center">
+
+                            <small class="text-secondary">
+                                Name
+                            </small>
+
+                            <h6 class="fw-bold mt-2">
+                                Sayra Jahan
+                            </h6>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="info-box text-center">
+
+                            <small class="text-secondary">
+                                Email
+                            </small>
+
+                            <h6 class="fw-bold mt-2">
+                                sayraadiba2@gmail.com
+                            </h6>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="info-box text-center">
+
+                            <small class="text-secondary">
+                                Date of Birth
+                            </small>
+
+                            <h6 class="fw-bold mt-2">
+                                27 December 2003
+                            </h6>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="info-box text-center">
+
+                            <small class="text-secondary">
+                                Phone
+                            </small>
+
+                            <h6 class="fw-bold mt-2">
+                                01537412638
+                            </h6>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ================= WHAT I DO ================= -->
+
+    <section class="py-5 bg-light">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <h2 class="fw-bold">
+                    What I Do
+                </h2>
+
+                <p class="text-muted col-lg-8 mx-auto">
+                    I'm an undergraduate student passionate about web development.
+                    I enjoy creating responsive and user-friendly websites while
+                    continuously learning modern technologies to become a skilled
+                    full-stack developer.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card border-0 shadow h-100 p-4 text-center skill-card">
+
+                        <img src="./images/icons/js.png" class="mx-auto mb-3" width="70" alt="JavaScript">
+
+                        <h5 class="fw-bold">
+                            JavaScript
+                        </h5>
+
+                        <p class="text-muted">
+                            Building interactive websites using modern JavaScript
+                            concepts and clean programming practices.
+                        </p>
+                        <button class="btn btn-warning text-white mt-2" onclick="showDetails('javascript')">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card border-0 shadow h-100 p-4 text-center skill-card">
+
+                        <div class="mb-3">
+
+                            <img src="./images/icons/react.png" width="45" class="mx-1" alt="">
+
+                            <img src="./images/icons/mongo.png" width="45" class="mx-1" alt="">
+
+                            <img src="./images/icons/twitter.png" width="45" class="mx-1" alt="">
+
+                        </div>
+
+                        <h5 class="fw-bold">
+                            React & MongoDB
+                        </h5>
+
+                        <p class="text-muted">
+                            Learning modern frontend frameworks and backend
+                            databases for full-stack development.
+                        </p>
+                        <button class="btn btn-warning text-white mt-2" onclick="showDetails('react')">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 3 -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card border-0 shadow h-100 p-4 text-center skill-card">
+
+                        <img src="./images/icons/nodejs.png" class="mx-auto mb-3" width="70" alt="">
+
+                        <h5 class="fw-bold">
+                            Node.js
+                        </h5>
+
+                        <p class="text-muted">
+                            Exploring backend development using Node.js and
+                            RESTful APIs.
+                        </p>
+                        <button class="btn btn-warning text-white mt-2" onclick="showDetails('node')">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 4 -->
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card border-0 shadow h-100 p-4 text-center skill-card">
+
+                        <img src="./images/icons/insta.png" class="mx-auto mb-3" width="70" alt="">
+
+                        <h5 class="fw-bold">
+                            Social Media
+                        </h5>
+
+                        <p class="text-muted">
+                            Creating engaging digital content and maintaining
+                            a professional online presence.
+                        </p>
+                        <button class="btn btn-warning text-white mt-2" onclick="showDetails('social')">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <h2 class="fw-bold">
+                    My Skills
+                </h2>
+
+                <p class="text-muted">
+                    Technologies I'm currently learning and improving.
+                </p>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6">
+
+                    <h6>HTML</h6>
+
+                    <div class="progress mb-4">
+                        <div class="progress-bar bg-warning" style="width:95%">
+                            95%
+                        </div>
+                    </div>
+
+                    <h6>CSS</h6>
+
+                    <div class="progress mb-4">
+                        <div class="progress-bar bg-warning" style="width:90%">
+                            90%
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <h6>Bootstrap</h6>
+
+                    <div class="progress mb-4">
+                        <div class="progress-bar bg-warning" style="width:80%">
+                            80%
+                        </div>
+                    </div>
+
+                    <h6>JavaScript</h6>
+
+                    <div class="progress mb-4">
+                        <div class="progress-bar bg-warning" style="width:70%">
+                            70%
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ==========================
+     DETAILS POPUP
+========================== -->
+
+    <div id="detailsPopup" class="details-popup">
+
+        <div class="details-content">
+
+            <button class="close-popup" onclick="closeDetails()">
+                &times;
+            </button>
+
+            <h2 id="detailsTitle"></h2>
+
+            <p id="detailsDescription"></p>
+
+            <ul id="detailsList"></ul>
+
+            <button class="btn btn-warning text-white" onclick="closeDetails()">
+                Close
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="py-5 bg-light">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6 mb-4">
+
+                    <h2 class="fw-bold mb-3">
+                        Contact Me
+                    </h2>
+
+                    <p class="text-muted">
+                        Feel free to contact me for collaborations,
+                        freelance work, or just to say hello.
+                    </p>
+
+                    <h6>Email</h6>
+                    <p>sayraadiba2@gmail.com</p>
+
+                    <h6>Phone</h6>
+                    <p>01537412638</p>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <form id="contactForm" action="#" method="post">
+
+                        <div class="mb-3">
+
+
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+
+                            <small id="nameError" class="text-danger"></small>
+                        </div>
+
+                        <div class="mb-3">
+
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+
+                            <small id="emailError" class="text-danger"></small>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+
+                            <small id="messageError" class="text-danger"></small>
+                        </div>
+
+                        <button type="submit" class="btn btn-warning text-white px-4">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="bg-dark text-white py-4">
+
+        <div class="container text-center">
+
+            <p class="mb-1">
+                © 2026 Sayra Jahan. All Rights Reserved.
+            </p>
+
+            <small>
+                Designed with ❤️ using Bootstrap 5
+            </small>
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
